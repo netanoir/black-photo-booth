@@ -53,11 +53,10 @@ after installing the prerequisites, follow the following steps:
 * [glitch](https://glitch.me)
 * [are.na api](https://dev.are.na/documentation)
 * [adobe creative cloud](https://www.adobe.com/creativecloud.html?sdid=KKQWX&mv=search&ef_id=Cj0KCQjw09HzBRDrARIsAG60GP_DHakuPXWcXF5VR_Db4nssdBtbzWKF1uo2bQ-qZTGxYe3l1mS0ADYaAm5rEALw_wcB:G:s&s_kwcid=AL!3085!3!379241369687!e!!g!!adobe%20creative%20cloud&gclid=Cj0KCQjw09HzBRDrARIsAG60GP_DHakuPXWcXF5VR_Db4nssdBtbzWKF1uo2bQ-qZTGxYe3l1mS0ADYaAm5rEALw_wcB) xd, illustrator and photoshop
-* 
 
 ## authors
-[Mariame Kaba](http://www.usprisonculture.com)
-[neta bomani](https://netabomani.com)
+* [Mariame Kaba](http://www.usprisonculture.com)
+* [neta bomani](https://netabomani.com)
 
 ## code of conduct
 please read the [code of conduct](https://www.mozilla.org/en-US/about/governance/policies/participation/) 
@@ -67,6 +66,8 @@ this readme template is licensed according to [attribution 4.0 international (cc
 
 # acknowledgements
 * [Mariame Kaba](http://www.usprisonculture.com) and [Project NIA](http://www.project-nia.org/) for entrusting me with her personal archive and giving me the time and resources to make the project
-* [Jessa](http://merehuman.live/), [Vijay](https://vijaymasharani.com/) and [Sydney](https://sunatirene0.bandcamp.com/) for giving me physical space to work on this project
+* [Jessa](http://merehuman.live/), [Vijay](https://vijaymasharani.com/) and [Sydney](https://sunatirene0.bandcamp.com/) for giving me physical space to work on this project during a bought of depression
+
+
 
 
