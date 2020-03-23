@@ -68,6 +68,12 @@ this readme template is licensed according to [attribution 4.0 international (cc
 * [Mariame Kaba](http://www.usprisonculture.com) and [Project NIA](http://www.project-nia.org/) for entrusting me with her personal archive and giving me the time and resources to make the project
 * [Jessa](http://merehuman.live/), [Vijay](https://vijaymasharani.com/) and [Sydney](https://sunatirene0.bandcamp.com/) for giving me physical space to work on this project during a bought of depression
 
+***
+***
+***
 
+# notes and process
+# process and documentation
 
-
+[wireframes]: /black-photo-booth/web/visualdesign/bpf-wireframes.gif "wireframes"
+![a gif walkthrough of the wireframes][wireframes]
