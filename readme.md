@@ -75,5 +75,5 @@ this readme template is licensed according to [attribution 4.0 international (cc
 # notes and process
 # process and documentation
 
-[wireframes]: /asset/bpf-wireframes.gif "wireframes"
+[wireframes]: https://raw.githubusercontent.com/netanoir/black-photo-booth/master/asset/bpb-wireframes.gif "wireframes"
 ![a gif walkthrough of the wireframes][wireframes]
