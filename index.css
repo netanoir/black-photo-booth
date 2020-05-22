@@ -23,12 +23,11 @@
 
   li {
     display: inline-grid;
-    /* padding-right: 1rem; */
   }
 
-  #right {
-      position: relative;
-      left: 0px;
+.right-nav {
+      position: fixed;
+      right: 1.5%;
   }
 
   h1 {
