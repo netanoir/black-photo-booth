@@ -1,0 +1,102 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    background-color: antiquewhite;
+    font-family: big-caslon-fb, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  li {
+    display: inline-grid;
+    /* padding-right: 1rem; */
+  }
+
+  #right {
+      position: relative;
+      left: 0px;
+  }
+
+  h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+    margin: 1rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5rem;
+    margin: 1rem;
+
+  }
+
+p {
+      margin: 1rem;
+  }
+
+a:link, a:active, a:visited, a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1.5px solid black;
+}
+
+  .gift-wrap {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+  }
+
+  .left,
+  .right {
+    height: 100vh;
+    width: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    /* transition: 0.25s; */
+  }
+
+.left::-webkit-scrollbar,
+.right::-webkit-scrollbar {
+    display: none;
+    width: 0 !important;
+}
+
+  hr {
+    border: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* archive photo grid */
+
+  .archive {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      align-content: space-around;
+
+  }
+
+  .photo {
+
+    width: 45%;
+  }
