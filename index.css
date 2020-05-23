@@ -11,14 +11,12 @@
   @media only screen and (max-width:800px) {
     html {
       font-size: 20%;
-      line-height: 25%;
     }
   }
 
   @media only screen and (max-width:320px) {
     html {
       font-size: 15%;
-      line-height: 20%;
     }
   }
 
@@ -53,7 +51,7 @@ li {
 
 h1 {
   font-size: 13rem;
-  line-height: 12rem;
+  line-height: 100%;
   text-transform: uppercase;
   margin: 1rem;
 }
@@ -70,7 +68,7 @@ p {
 }
 
 .mariame {
-  line-height: 95%;
+  line-height: 100%;
 }
 
 a:link, a:active, a:visited {
