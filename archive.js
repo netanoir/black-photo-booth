@@ -5,29 +5,37 @@ window.addEventListener('DOMContentLoaded', async () => {
     const apiOptions = { method: "GET" };
     const response = await fetch(URL, apiOptions);
     const result = await response.json();
-    // console.log(result);
+    let numOfPhotos = result.length;
+    const photoLibrary = [];
 
-    // randomize
-    var numOfPhotos = result.length;
-    var randomPhoto = Math.floor( Math.random() * numOfPhotos );
-
-
-    // loop thru bpb are.na channel json image urls
+    // option 1: random
     for (let i = 0; i < numOfPhotos; i += 1) {
-
-        // if (result.contents[i] !== undefined) {
-
-            // store bpb are.na channel json image urls in variable
-            var imgURL = result.contents[i].image.display.url;
-            console.log(imgURL);
-
-            let photo = new Image();
-            photo.src = imgURL;
-            photo.setAttribute('class', 'photo');
-
-            // add photo to archive booth
-            document.getElementById("booth").appendChild(photo);
-        //   }
-
+        let apiResult = result.contents[i].image.display;
+        console.log(apiResult);
+        const photo = new Image();
+        photo.src = apiResult.url;
+        photo.setAttribute('class', 'photo');
+        photoLibrary.push(photo);
     }
+    
+    const copyphotoLibrary = [...photoLibrary];
+    const shuffledphotoLibrary = copyphotoLibrary.sort( (a,b) => 0.5 - Math.random() );
+    console.log( "shuffled: " + shuffledphotoLibrary);
+
+    for (let i = 0; i < numOfPhotos; i += 1) {
+        document.getElementById("booth").appendChild(shuffledphotoLibrary[i]);
+    }
+
+    // option 2: chronological
+    // // loop thru bpb are.na channel json image urls
+    // for (let i = 0; i < numOfPhotos; i += 1) {
+    //     // store bpb are.na channel json image urls in variable
+    //     let imgURL = result.contents[i].image.display.url;
+    //     let photo = new Image();
+    //     photo.src = imgURL;
+    //     photo.setAttribute('class', 'photo');
+
+    //     // add photo to archive booth
+    //     // document.getElementById("booth").appendChild(photo);
+    // }
 });
