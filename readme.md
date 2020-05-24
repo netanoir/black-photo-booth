@@ -30,7 +30,7 @@ to add to this zine, you can follow the steps provided below:
 * [are.na api](https://dev.are.na/documentation)
 * [adobe creative cloud](https://www.adobe.com/creativecloud.html?sdid=KKQWX&mv=search&ef_id=Cj0KCQjw09HzBRDrARIsAG60GP_DHakuPXWcXF5VR_Db4nssdBtbzWKF1uo2bQ-qZTGxYe3l1mS0ADYaAm5rEALw_wcB:G:s&s_kwcid=AL!3085!3!379241369687!e!!g!!adobe%20creative%20cloud&gclid=Cj0KCQjw09HzBRDrARIsAG60GP_DHakuPXWcXF5VR_Db4nssdBtbzWKF1uo2bQ-qZTGxYe3l1mS0ADYaAm5rEALw_wcB) xd, illustrator and photoshop
 
-## authors
+# authors
 * [Mariame Kaba](http://www.usprisonculture.com)
 * [neta bomani](https://netabomani.com)
 
