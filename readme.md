@@ -21,7 +21,6 @@ to add to this zine, you can follow the steps provided below:
 6. have a nice chat and communication with me about those changes. 
 7. celebrate the contribution! 
 
-### deployment
 
 ## tools
 * [iterm2](https://iterm2.com/)
