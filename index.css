@@ -126,7 +126,7 @@ a:hover {
 }
 
 .hide-n-seek img {
-  width: 20%;
+  max-height: 50%;
   position: fixed;
   right: 1.5%;
   bottom: 1.5%;
