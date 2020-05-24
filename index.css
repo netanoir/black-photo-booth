@@ -107,6 +107,33 @@ a:hover {
     width: 0 !important;
 }
 
+.hide-n-seek a { 
+  position: relative; 
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
+.hide-n-seek a span { 
+  position: absolute; 
+  display:none; 
+  z-index:99; 
+}
+
+.hide-n-seek a:hover span { 
+  color: black;
+  display: block; 
+  transition: 0.25s;
+}
+
+.hide-n-seek img {
+  width: 20%;
+  position: fixed;
+  right: 1.5%;
+  bottom: 1.5%;
+  border-radius: 3%;
+  filter: drop-shadow(0.75rem 0.75rem 0 black);
+}
+
 hr {
   border: 0px;
   padding-top: 2.5%;
