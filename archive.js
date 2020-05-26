@@ -11,31 +11,16 @@ window.addEventListener('DOMContentLoaded', async () => {
     // option 1: random
     for (let i = 0; i < numOfPhotos; i += 1) {
         let apiResult = result.contents[i].image.display;
-        console.log(apiResult);
         const photo = new Image();
         photo.src = apiResult.url;
         photo.setAttribute('class', 'photo');
         photoLibrary.push(photo);
     }
     
-    const copyphotoLibrary = [...photoLibrary];
-    const shuffledphotoLibrary = copyphotoLibrary.sort( (a,b) => 0.5 - Math.random() );
-    console.log( "shuffled: " + shuffledphotoLibrary);
+    const copyPhotoLibrary = [...photoLibrary];
+    const shuffledPhotoLibrary = copyPhotoLibrary.sort( (a,b) => 0.5 - Math.random() );
 
     for (let i = 0; i < numOfPhotos; i += 1) {
-        document.getElementById("booth").appendChild(shuffledphotoLibrary[i]);
+        document.getElementById("booth").appendChild(shuffledPhotoLibrary[i]);
     }
-
-    // option 2: chronological
-    // // loop thru bpb are.na channel json image urls
-    // for (let i = 0; i < numOfPhotos; i += 1) {
-    //     // store bpb are.na channel json image urls in variable
-    //     let imgURL = result.contents[i].image.display.url;
-    //     let photo = new Image();
-    //     photo.src = imgURL;
-    //     photo.setAttribute('class', 'photo');
-
-    //     // add photo to archive booth
-    //     // document.getElementById("booth").appendChild(photo);
-    // }
 });

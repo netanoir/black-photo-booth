@@ -22,7 +22,7 @@
 
 body {
   background-color: antiquewhite;
-   background-image: url("texture.png");
+  background-image: url("texture.png");
   font-family: big-caslon-fb, serif;
   font-weight: 400;
   font-style: normal;
@@ -30,7 +30,7 @@ body {
 }
 
 ::selection {
-  background: saddlebrown;
+  background: black;
 }
 
 ul {
@@ -47,7 +47,6 @@ li {
   position: fixed;
   top: 1%;
   right: 2.5%;
-  /* transform: rotate(1.5deg); */
 }
 
 h1 {
